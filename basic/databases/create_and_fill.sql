@@ -1,0 +1,28 @@
+CREATE TABLE products (
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    price REAL NOT NULL
+);
+
+INSERT INTO products (id, name, price) VALUES
+(1, 'PRODUTO A', 10.99),
+(2, 'PRODUTO B', 11.99),
+(3, 'PRODUTO C', 12.99),
+(4, 'PRODUTO D', 13.99),
+(5, 'PRODUTO E', 14.99),
+(6, 'PRODUTO F', 15.99),
+(7, 'PRODUTO G', 16.99),
+(8, 'PRODUTO H', 17.99),
+(9, 'PRODUTO I', 18.99),
+(10, 'PRODUTO J', 19.99),
+(11, 'PRODUTO K', 20.99),
+(12, 'PRODUTO L', 21.99),
+(13, 'PRODUTO M', 22.99),
+(14, 'PRODUTO N', 23.99),
+(15, 'PRODUTO O', 24.99),
+(16, 'PRODUTO P', 25.99),
+(17, 'PRODUTO Q', 26.99),
+(18, 'PRODUTO R', 27.99),
+(19, 'PRODUTO S', 28.99),
+(20, 'PRODUTO T', 29.99),
+(21, 'PRODUTO U', 30.99);
